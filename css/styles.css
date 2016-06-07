@@ -3,8 +3,8 @@
 }
 
 .yellow {
-  background: yellow;
+  background-color: yellow;
 }
 .nothing {
-  background: white;
+  background-color: transparent;
 }
