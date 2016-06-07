@@ -5,45 +5,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- jQuery link -->
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Drinks</title>
+    <title>Amusement Park Rides</title>
   </head>
   <body>
     <div class="container">
-
-      <form>
-        <div class="radio">
-        <label>
-          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-          I am an adult
-          </label>
-        </div>
-        <div class="radio">
+      <div id="ageInput">
+        <h2> Are you an Adult or a Kid ? If a kid, how tall are you ?</h2>
+        <form>
+          <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-          I am a kid, and I am over 36 inches tall.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-          I am a kid, and I am 36 inches tall or under.
-          </label>
-        </div>
-          <button type="submit" class="btn">Submit !</button>
-      </form>
+            <input type="radio" name="optionsRadios" id="one" value="option1">
+            I am an adult.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="two" value="option2">
+            I am a kid, and I am over 36 inches tall.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="optionsRadios" id="three" value="option3">
+            I am a kid, and I am 36 inches tall or under.
+            </label>
+          </div>
+            <button type="submit" class="btn">Submit !</button>
+        </form>
+      </div>
 
-
-      <div id="Rides">
+      <div id="rides">
         <h1>Here are the rides !</h1>
 
         <h2>The highlighted rides are the ones you can ride</h2>
-        <ul>
-          <li class="adult kid">Family Fun house</li>
-          <li class="kid">Inchworm</li>
+        <ul class="options">
+          <li class="adult bigkid littlekid">Family Fun house</li>
+          <li class="littlekid">Inchworm</li>
           <li class="adult">Mega Roller Coaster</li>
-          <li class="kid adult">TeaCup ride</li>
+          <li class="adult bigkid littlekid">TeaCup ride</li>
         </ul>
       </div>
 

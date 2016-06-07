@@ -1,0 +1,10 @@
+#rides {
+  display: none;
+}
+
+.yellow {
+  background: yellow;
+}
+.nothing {
+  background: white;
+}
